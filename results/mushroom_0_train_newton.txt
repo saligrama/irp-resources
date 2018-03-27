@@ -1,0 +1,27 @@
+Exited because queue empty
+TREE mem usage: 112977888
+PMAP mem usage: 1605154394
+QUEUE mem usage: 268435456
+Writing queue elements to: queue.txt
+Deleting queue elements and corresponding nodes in the cache,since they may not be reachable by the tree's destructor
+
+minimum objective: 0.0487575260
+minimum lower bound in queue: 1.0000000000
+
+final num_nodes: 354040
+final num_evaluated: 359146
+final min_objective: 0.04876
+final accuracy: 0.99124
+
+OPTIMAL RULE LIST
+if ({bruises:t,habitat:d}) then ({poisonous:edible})
+else if ({bruises:t,stalk-root:b}) then ({poisonous:poisonous})
+else if ({bruises:t,gill-size:b}) then ({poisonous:edible})
+else if ({odor:n}) then ({poisonous:edible})
+else ({poisonous:poisonous})
+
+writing optimal rule list to: ../logs/for--curious_lb-with_prefix_perm_map-no_minor-removed=none-max_num_nodes=100000000-c=0.0100000-v=progress,log-f=1000-opt.txt
+
+final total time: 368.021247
+
+

@@ -1,0 +1,1 @@
+{bruises:t,habitat:d}~0;{bruises:f,odor:n}~0;{stalk-root:b}~1;{bruises:t,gill-size:b}~0;default~1

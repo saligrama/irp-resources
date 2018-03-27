@@ -1,0 +1,1 @@
+{bruises:t,habitat:d}~0;{bruises:t,stalk-root:b}~1;{odor:n,stalk-surface-above-ring:s}~0;{gill-size:b,stalk-color-above-ring:w}~0;default~1
