@@ -9,7 +9,7 @@ def run_corels (fname):
 	return subprocess.Popen(command, stdout=subprocess.PIPE, stderr=None, shell=True).communicate()
 
 def main ():
-	for fname in ["../data/CrossValidation/mushroom_" + str(x) + "_train" for x in range(10)]:
+	for fname in ["../data/CrossValidation/single_rules/mushroom_" + str(x) + "_train" for x in range(10)]:
 		basename = fname[fname.rfind('/')+1:]
 		try:
 			f = open("../results/" + basename + ".txt", "w")

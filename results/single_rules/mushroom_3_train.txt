@@ -1,0 +1,55 @@
+System information:
+system name-> Linux; node name-> euler; release-> 4.4.0-116-generic; version-> #140-Ubuntu SMP Mon Feb 12 21:23:04 UTC 2018; machine-> x86_64
+
+writing logs to: ../logs/for-mushroom_3_train.out-curious_lb-with_prefix_perm_map-no_minor-removed=none-max_num_nodes=1000000000-c=0.0100000-v=progress,log-f=1000.txt
+
+LEARNING RULE LIST via LOWER BOUND Prefix Map
+min(objective): 0.48399 -> 0.44993, length: 1, cache size: 1
+min(objective): 0.44993 -> 0.42899, length: 1, cache size: 5
+min(objective): 0.42899 -> 0.26753, length: 1, cache size: 12
+min(objective): 0.26753 -> 0.22634, length: 1, cache size: 14
+min(objective): 0.22634 -> 0.12166, length: 1, cache size: 15
+before garbage_collect. num_nodes: 38, log10(remaining): 1
+after garbage_collect. num_nodes: 38, log10(remaining): 1
+min(objective): 0.12166 -> 0.10525, length: 2, cache size: 48
+before garbage_collect. num_nodes: 69, log10(remaining): 1
+after garbage_collect. num_nodes: 69, log10(remaining): 1
+min(objective): 0.10525 -> 0.06885, length: 2, cache size: 79
+before garbage_collect. num_nodes: 96, log10(remaining): 1
+after garbage_collect. num_nodes: 96, log10(remaining): 1
+min(objective): 0.06885 -> 0.06134, length: 3, cache size: 862
+before garbage_collect. num_nodes: 876, log10(remaining): 1
+after garbage_collect. num_nodes: 876, log10(remaining): 1
+min(objective): 0.06134 -> 0.05492, length: 4, cache size: 1032
+before garbage_collect. num_nodes: 1031, log10(remaining): 1
+after garbage_collect. num_nodes: 1031, log10(remaining): 1
+iter: 408, tree: 152, queue: 0, pmap: 1240, log10(remaining): 1, time elapsed: 0.029064
+Exited because queue empty
+TREE mem usage: 52736
+PMAP mem usage: 90267
+QUEUE mem usage: 16384
+Writing queue elements to: queue.txt
+Deleting queue elements and corresponding nodes in the cache,since they may not be reachable by the tree's destructor
+
+minimum objective: 0.0549151615
+minimum lower bound in queue: 1.0000000000
+
+final num_nodes: 152
+final num_evaluated: 155
+final min_objective: 0.05492
+final accuracy: 0.98508
+
+OPTIMAL RULE LIST
+if ({odor:f}) then ({poisonous:poisonous})
+else if ({odor:n}) then ({poisonous:edible})
+else if ({bruises:f}) then ({poisonous:poisonous})
+else if ({stalk-root:e}) then ({poisonous:poisonous})
+else ({poisonous:edible})
+
+writing optimal rule list to: ../logs/for-mushroom_3_train.out-curious_lb-with_prefix_perm_map-no_minor-removed=none-max_num_nodes=1000000000-c=0.0100000-v=progress,log-f=1000-opt.txt
+
+final total time: 0.029253
+
+delete rules
+delete labels
+tree destructors

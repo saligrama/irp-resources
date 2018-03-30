@@ -1,0 +1,1 @@
+{odor:n}~0;{bruises:f}~1;{spore-print-color:h}~1;{stalk-root:e}~1;default~0
